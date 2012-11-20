@@ -18,7 +18,7 @@ void bubbleSort( int size, T items[])
 		for(int index = 1; index < size - count ; ++index)
 		{
 			if(items[index-1] > items[index])
-				swap(items[index-1] , items[index]);
+				swapItem(items[index-1] , items[index]);
 		}
 	}
 }
